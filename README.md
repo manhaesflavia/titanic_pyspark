@@ -1,38 +1,35 @@
-# titanic_pyspark
-Pyspark: Análise de Dados do Titanic para Expansão de Negócios em Cruzeiros
+**🚢 PySpark: Análise de Dados do Titanic para Expansão de Negócios em Cruzeiros**
+Bem-vindo ao repositório de análise de dados do Titanic! Aqui, investigamos o perfil dos passageiros do Titanic para ajudar um empresário do ramo de cruzeiros a entender melhor seus clientes, tomando decisões estratégicas para expansão de negócios e fidelização de clientes.
 
-Análise de Dados do Titanic para Expansão de Negócios em Cruzeiros
-Este repositório contém uma análise exploratória de dados baseada no dataset "Titanic - Machine Learning from Disaster", disponível no Kaggle. O objetivo é ajudar um empresário do ramo de cruzeiros a entender melhor o perfil e as preferências de passageiros, com insights que possam guiar estratégias de expansão e fidelização de clientes.
+📊 Sobre o Projeto
+Utilizamos o dataset "Titanic - Machine Learning from Disaster" do Kaggle para realizar uma análise de dados com PySpark. O PySpark foi escolhido pela sua capacidade de lidar com grandes volumes de dados de forma distribuída.
 
-A análise será realizada com PySpark, aproveitando sua capacidade de lidar com grandes volumes de dados e processar informações de maneira distribuída.
+🎯 Objetivos de Negócio
+Correlação entre Idade e Classe de Viagem
 
-Objetivos
-Entender a Correlação entre Idade e Classe de Viagem
+**Pergunta**: Passageiros mais velhos tendiam a viajar em classes superiores ou inferiores?
+Gênero e Taxa de Sobrevivência
 
-Avaliar se passageiros de diferentes idades tendiam a viajar em classes superiores ou inferiores.
-Pergunta: Há alguma correlação entre a idade dos passageiros e a classe em que viajavam? Passageiros mais velhos preferiam classes superiores?
-Analisar a Relação entre Gênero e Taxa de Sobrevivência
+**Pergunta**: Existe uma relação significativa entre gênero e sobrevivência no desastre?
+Probabilidade de Sobrevivência por Classe e Idade
 
-Investigar a conexão entre o gênero dos passageiros e a probabilidade de sobrevivência, para identificar como homens e mulheres foram impactados.
-Pergunta: Existe uma relação significativa entre o gênero dos passageiros e a sobrevivência no desastre?
-Calcular a Probabilidade de Sobrevivência por Classe e Idade
+**Pergunta**: Qual a probabilidade de um passageiro de primeira classe com menos de 20 anos sobreviver?
+Características dos Sobreviventes
 
-Determinar a chance de sobrevivência de passageiros de primeira classe com menos de 20 anos, ajudando a identificar perfis de passageiros com maior probabilidade de sobrevivência.
-Pergunta: Qual é a probabilidade de sobrevivência de um passageiro de primeira classe com menos de 20 anos?
-Identificar Características dos Sobreviventes
+**Pergunta**: Quais características em comum existem entre os sobreviventes do Titanic?
+Idade e Taxa de Sobrevivência para Embarque em Southampton
 
-Analisar as características principais dos passageiros que sobreviveram ao desastre, como idade, gênero, classe e porto de embarque.
-Pergunta: Quais características são comuns entre os sobreviventes do Titanic?
-Examinar a Correlação entre Idade e Sobrevivência para Passageiros que Embarcaram em Southampton
+**Pergunta**: Existe correlação entre idade e sobrevivência para os passageiros que embarcaram em Southampton?
 
-Avaliar se existe alguma correlação entre a idade dos passageiros que embarcaram em Southampton e sua taxa de sobrevivência.
-Pergunta: Existe alguma correlação entre a idade e a taxa de sobrevivência dos passageiros que embarcaram em Southampton?
-Tecnologias e Ferramentas Utilizadas
-PySpark: Para a manipulação de grandes volumes de dados e análises estatísticas.
-Pandas (quando aplicável): Para comparações e manipulação de dados menores.
-Jupyter Notebooks: Documentação e execução dos passos de análise.
-Como Utilizar este Repositório
-Cada pergunta de negócios foi tratada em um notebook específico, com detalhes dos métodos de análise e visualização de dados aplicados. Para reproduzir as análises, basta seguir as instruções de execução nos notebooks.
+⚙️ Tecnologias Utilizadas
+PySpark: Para manipulação e análise de dados em larga escala.
+Google Collab: Para documentar e executar os passos de análise.
 
-Este projeto pode servir como uma referência para análise de dados em PySpark, além de fornecer insights para o setor de cruzeiros, visando melhorar a experiência do cliente com base no perfil dos passageiros do Titanic.
+📝 Como Utilizar Este Repositório
+Cada objetivo de negócio foi abordado em um notebook específico, com explicações sobre os métodos de análise e visualizações aplicadas. Para reproduzir as análises, basta seguir as instruções de execução em cada notebook.
 
+💡 Insights para Negócios
+Este projeto oferece insights valiosos para o setor de cruzeiros, ajudando na definição de estratégias de atendimento e fidelização de clientes com base em perfis de passageiros.
+
+🌐 Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork do projeto, submeter issues e enviar pull requests.
